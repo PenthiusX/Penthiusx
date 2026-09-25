@@ -1,49 +1,81 @@
 <svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">PenthiusX — Globe Pulse</title>
-  <desc id="desc">An editorial profile banner for PenthiusX featuring a luminous globe pulse.</desc>
+  <desc id="desc">A modern premium banner with a futuristic globe pulse aesthetic.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#120D1F"/><stop offset="0.52" stop-color="#241438"/><stop offset="1" stop-color="#0A2630"/>
+      <stop stop-color="#060A12"/>
+      <stop offset="0.45" stop-color="#10182B"/>
+      <stop offset="1" stop-color="#0A1A2A"/>
     </linearGradient>
-    <linearGradient id="violet" x1="170" y1="100" x2="760" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F5C7FF"/><stop offset="0.45" stop-color="#BE8CFF"/><stop offset="1" stop-color="#67F5D4"/>
+    <linearGradient id="lineGlow" x1="180" y1="60" x2="760" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69F7E1"/>
+      <stop offset="0.55" stop-color="#5FA9FF"/>
+      <stop offset="1" stop-color="#D18BFF"/>
     </linearGradient>
-    <linearGradient id="orb" x1="1140" y1="92" x2="1360" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F8D6FF"/><stop offset="0.48" stop-color="#A56BFF"/><stop offset="1" stop-color="#42E9CD"/>
-    </linearGradient>
-    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1252 208) rotate(90) scale(182)">
-      <stop stop-color="#C98CFF" stop-opacity="0.3"/><stop offset="1" stop-color="#C98CFF" stop-opacity="0"/>
+    <radialGradient id="orbGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1280 190) rotate(90) scale(210)">
+      <stop stop-color="#5AE8FF" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#4E78FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#4E78FF" stop-opacity="0"/>
     </radialGradient>
-    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="16"/></filter>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity="0.42"/></filter>
-    <clipPath id="globe"><circle cx="1252" cy="208" r="106"/></clipPath>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="190%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <clipPath id="globeClip"><circle cx="1280" cy="190" r="112"/></clipPath>
   </defs>
-  <rect width="1600" height="420" rx="28" fill="url(#bg)"/>
-  <circle cx="1252" cy="208" r="182" fill="url(#halo)"/>
-  <path d="M0 90C245 165 320 35 570 108C808 178 889 72 1128 116C1322 151 1430 104 1600 70" stroke="#F5C7FF" stroke-opacity="0.12" stroke-width="1.5"/>
-  <path d="M0 353C260 294 429 390 671 330C913 270 1138 326 1600 278" stroke="#67F5D4" stroke-opacity="0.16" stroke-width="2"/>
-  <g fill="#E7D5FF" opacity="0.6"><circle cx="76" cy="72" r="2"/><circle cx="356" cy="326" r="1.4"/><circle cx="615" cy="60" r="1.2"/><circle cx="914" cy="354" r="1.6"/><circle cx="1498" cy="82" r="1.5"/><circle cx="1538" cy="304" r="1"/></g>
+
+  <rect width="1600" height="420" rx="26" fill="url(#bg)"/>
+
+  <circle cx="1280" cy="190" r="200" fill="url(#orbGlow)"/>
+
+  <g opacity="0.18" stroke="url(#lineGlow)" stroke-width="2">
+    <path d="M0 100C220 70 320 170 509 120C691 72 800 156 973 108C1157 57 1251 104 1600 52"/>
+    <path d="M0 330C214 286 340 384 550 336C756 288 905 352 1089 308C1280 264 1431 327 1600 290"/>
+  </g>
+
+  <g fill="#DDEBFF" opacity="0.75">
+    <circle cx="88" cy="65" r="2"/><circle cx="224" cy="330" r="1.6"/>
+    <circle cx="468" cy="72" r="1.8"/><circle cx="745" cy="340" r="1.5"/>
+    <circle cx="1194" cy="66" r="1.7"/><circle cx="1450" cy="310" r="1.8"/>
+  </g>
+
   <g filter="url(#shadow)">
-    <rect x="154" y="84" width="58" height="58" rx="18" fill="#2E1D4D" stroke="#724FA0"/>
-    <path d="M183 98V128M168 113H198" stroke="url(#violet)" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="183" cy="113" r="8" stroke="#67F5D4" stroke-width="2"/>
+    <rect x="146" y="78" width="68" height="68" rx="22" fill="#0E1730" stroke="#2C4F7C"/>
+    <path d="M176 100L188 112L176 124L164 112L176 100Z" fill="#69F7E1" opacity="0.9"/>
+    <path d="M188 112H164M176 124V100" stroke="#B9D5FF" stroke-width="2" stroke-linecap="round"/>
   </g>
-  <text x="234" y="121" fill="#CBB7E9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="4">PENTHIUSX</text>
-  <text x="154" y="224" fill="url(#violet)" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="72" font-weight="850" letter-spacing="-3">Globe Pulse</text>
-  <text x="158" y="268" fill="#D0C1E4" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="500">A signal for ideas that move across the world.</text>
-  <path d="M158 309H470" stroke="url(#violet)" stroke-width="3" stroke-linecap="round"/>
-  <text x="158" y="346" fill="#8F7BAA" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="3">DESIGN • TECHNOLOGY • CURIOSITY</text>
+
+  <text x="236" y="122" fill="#B8C8E8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" letter-spacing="4">PENTHIUSX</text>
+
+  <text x="150" y="230" fill="#F5F7FF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="74" font-weight="800" letter-spacing="-3">Globe Pulse</text>
+  <text x="154" y="272" fill="#B6C5DE" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="500">Building future-focused experiences with clarity and impact.</text>
+
   <g>
-    <circle cx="1252" cy="208" r="126" stroke="#C98CFF" stroke-opacity="0.16" stroke-width="2"/>
-    <circle cx="1252" cy="208" r="145" stroke="#67F5D4" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="2 14"/>
-    <circle cx="1252" cy="208" r="106" fill="#101A31" stroke="url(#orb)" stroke-width="3"/>
-    <g clip-path="url(#globe)" stroke="#CBA6FF" stroke-opacity="0.58" fill="none">
-      <ellipse cx="1252" cy="208" rx="45" ry="106" stroke-width="1.5"/><ellipse cx="1252" cy="208" rx="82" ry="106" stroke-width="1.5"/>
-      <ellipse cx="1252" cy="208" rx="106" ry="32" stroke-width="1.5"/><ellipse cx="1252" cy="208" rx="106" ry="68" stroke-width="1.5"/>
-      <path d="M1146 208H1358M1152 166H1352M1152 250H1352" stroke-width="1.5"/>
-    </g>
-    <circle cx="1252" cy="208" r="11" fill="#67F5D4" opacity="0.42" filter="url(#soft)"/><circle cx="1252" cy="208" r="5" fill="#67F5D4"/>
-    <path d="M1252 208L1332 151" stroke="#67F5D4" stroke-width="2" stroke-linecap="round"/><circle cx="1332" cy="151" r="5" fill="#F5C7FF"/>
+    <rect x="156" y="305" width="260" height="36" rx="18" fill="#0D1E35" stroke="#375A8E"/>
+    <circle cx="181" cy="323" r="6" fill="#69F7E1"/>
+    <text x="201" y="329" fill="#DCEBFF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">Next-gen creator</text>
   </g>
-  <text x="1410" y="373" fill="#796894" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="2.5">FOLLOW THE SIGNAL</text>
+
+  <g>
+    <circle cx="1280" cy="190" r="132" stroke="#66E2FF" stroke-opacity="0.18" stroke-width="2"/>
+    <circle cx="1280" cy="190" r="148" stroke="#A975FF" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="3 13"/>
+    <circle cx="1280" cy="190" r="110" fill="#0B1831" stroke="url(#lineGlow)" stroke-width="3"/>
+    <g clip-path="url(#globeClip)" stroke="#7EE5FF" stroke-opacity="0.7" fill="none">
+      <ellipse cx="1280" cy="190" rx="52" ry="110" stroke-width="1.5"/>
+      <ellipse cx="1280" cy="190" rx="88" ry="110" stroke-width="1.5"/>
+      <ellipse cx="1280" cy="190" rx="110" ry="36" stroke-width="1.5"/>
+      <ellipse cx="1280" cy="190" rx="110" ry="72" stroke-width="1.5"/>
+      <path d="M1170 190H1390M1175 147H1385M1175 233H1385" stroke-width="1.5"/>
+      <path d="M1210 129C1241 152 1253 170 1253 190C1253 212 1240 229 1210 252M1350 129C1319 152 1307 170 1307 190C1307 212 1320 229 1350 252" stroke-width="1.5"/>
+    </g>
+    <circle cx="1280" cy="190" r="8" fill="#69F7E1" filter="url(#blur)"/>
+    <circle cx="1280" cy="190" r="4" fill="#69F7E1"/>
+    <path d="M1280 190L1362 142" stroke="#69F7E1" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="1362" cy="142" r="4.5" fill="#D18BFF"/>
+  </g>
+
+  <text x="1416" y="372" fill="#7B8FB8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="3">FUTURE • SIGNAL • DESIGN</text>
 </svg>
+

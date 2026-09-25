@@ -4,7 +4,7 @@
 
 ### Welcome to my corner of the internet
 
-I build thoughtful digital experiences where **design, technology, and curiosity** meet.
+I build thoughtful digital experiences with a focus on design, impact, and forward-looking technology.
 
 [**Visit Globe Pulse →**](https://globe-pulse.pages.dev)
 
