@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/globe-pulse-banner.svg" alt="Globe Pulse banner" width="100%" />
+<img src="./assets/globe-pulse-hero.svg" alt="Globe Pulse — watch the world in real time" width="100%" />
 
 ### Welcome to my corner of the internet
 
