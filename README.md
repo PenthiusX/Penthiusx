@@ -6,7 +6,7 @@
 
 I build thoughtful digital experiences that move ideas forward with clarity, creativity, and purpose.
 
-My current rabbit hole: [**Globe Pulse →**](https://globe-pulse.pages.dev)
+My current worm hole: [**Globe Pulse →**](https://globe-pulse.pages.dev)
 
 <img src="./assets/globe-pulse-hero.svg" alt="Globe Pulse — watch the world in real time" width="100%" />
 
