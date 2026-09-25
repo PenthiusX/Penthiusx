@@ -1,284 +1,229 @@
 <svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Globe Pulse — Watch the World in Real Time</title>
-  <desc id="desc">Award-winning hero banner for Globe Pulse by PenthiusX: real-time global news, AI heuristics and geospatial event analysis rendered on a live interactive 3D world map.</desc>
+  <title id="title">Globe Pulse — Live World Pulse, Mapped in Real Time</title>
+  <desc id="desc">Award-winning hero banner for Globe Pulse by PenthiusX: an orbital view of a glowing Earth with live news arcs, AI heuristics and geospatial event pulses on a real-time 3D world map.</desc>
 
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050810"/>
-      <stop offset="0.45" stop-color="#0A1429"/>
-      <stop offset="0.8" stop-color="#071627"/>
-      <stop offset="1" stop-color="#050A15"/>
+    <linearGradient id="spaceGrad" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04020D"/>
+      <stop offset="0.45" stop-color="#100828"/>
+      <stop offset="0.8" stop-color="#170A33"/>
+      <stop offset="1" stop-color="#0B0420"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="640" y1="120" x2="960" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.45" stop-color="#9BFFF0"/>
+      <stop offset="0.75" stop-color="#5AC8FF"/>
+      <stop offset="1" stop-color="#C792FF"/>
+    </linearGradient>
+    <linearGradient id="arcGrad" x1="1080" y1="100" x2="1290" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DF9E4"/>
+      <stop offset="0.5" stop-color="#52C9FF"/>
+      <stop offset="1" stop-color="#9B7BFF"/>
+    </linearGradient>
+    <linearGradient id="magGrad" x1="1174" y1="130" x2="1300" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7AE0"/>
+      <stop offset="0.5" stop-color="#C792FF"/>
+      <stop offset="1" stop-color="#7DF9E4"/>
     </linearGradient>
     <linearGradient id="bezelGrad" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#59E3FF" stop-opacity="0.6"/>
-      <stop offset="0.5" stop-color="#9B82FF" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#7EF7D9" stop-opacity="0.6"/>
+      <stop stop-color="#7DF9E4" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#9B7BFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#E57BFF" stop-opacity="0.5"/>
     </linearGradient>
-    <linearGradient id="titleGrad" x1="140" y1="120" x2="720" y2="260" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8FF7E3"/>
-      <stop offset="0.55" stop-color="#58B9FF"/>
-      <stop offset="1" stop-color="#C29BFF"/>
-    </linearGradient>
-    <linearGradient id="rimGrad" x1="1037" y1="40" x2="1293" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#59C8FF"/>
-      <stop offset="0.5" stop-color="#7EF7D9"/>
-      <stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
-    <linearGradient id="ctaGrad" x1="610" y1="300" x2="794" y2="340" gradientUnits="userSpaceOnUse">
+    <radialGradient id="ocean" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 150) scale(340)">
+      <stop stop-color="#163B72"/>
+      <stop offset="0.38" stop-color="#0C2450"/>
+      <stop offset="0.72" stop-color="#071838"/>
+      <stop offset="1" stop-color="#040C22"/>
+    </radialGradient>
+    <radialGradient id="nebula" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1260 150) scale(430)">
+      <stop stop-color="#7A3FF2" stop-opacity="0.32"/>
+      <stop offset="0.55" stop-color="#3B1B6E" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#3B1B6E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(880 330) scale(330)">
+      <stop stop-color="#3FBCFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#3FBCFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="leftLight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(680 215) scale(330)">
+      <stop stop-color="#6FCFFF" stop-opacity="0.18"/>
+      <stop offset="0.3" stop-color="#6FCFFF" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#6FCFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="termRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1340 215) scale(330)">
+      <stop stop-color="#000000" stop-opacity="0.38"/>
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 210) rotate(90) scale(1150)">
+      <stop stop-color="#03030C" stop-opacity="0"/>
+      <stop offset="0.78" stop-color="#03030C" stop-opacity="0"/>
+      <stop offset="1" stop-color="#02020A" stop-opacity="0.6"/>
+    </radialGradient>
+    <linearGradient id="ctaGrad" x1="486" y1="354" x2="682" y2="390" gradientUnits="userSpaceOnUse">
       <stop stop-color="#4FF2C8"/>
       <stop offset="0.55" stop-color="#3E9CFF"/>
       <stop offset="1" stop-color="#8A6CFF"/>
     </linearGradient>
-    <linearGradient id="sparkFade" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7EF7D9" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#7EF7D9" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="seedCore" x1="0" y1="0" x2="1" y2="1" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#59E3FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1165 195) rotate(90) scale(150)">
-      <stop stop-color="#59E3FF" stop-opacity="0.5"/>
-      <stop offset="0.5" stop-color="#3E7BFF" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#3E7BFF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="sphereGrad" cx="0.45" cy="0.35" r="0.75" gradientUnits="objectBoundingBox">
-      <stop stop-color="#123457"/>
-      <stop offset="0.4" stop-color="#0B2140"/>
-      <stop offset="0.75" stop-color="#081731"/>
-      <stop offset="1" stop-color="#050D20"/>
-    </radialGradient>
-    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.5" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 200) rotate(90) scale(1100)">
-      <stop stop-color="#03070F" stop-opacity="0"/>
-      <stop offset="0.72" stop-color="#03070F" stop-opacity="0"/>
-      <stop offset="1" stop-color="#01040B" stop-opacity="0.55"/>
-    </radialGradient>
-    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="7"/></filter>
-    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.5"/></filter>
-    <filter id="cardShadow" x="-30%" y="-40%" width="170%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/></filter>
-    <clipPath id="globeClip"><circle cx="1165" cy="195" r="128"/></clipPath>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="bigBlur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="12"/></filter>
+    <clipPath id="planetClip"><circle cx="1010" cy="215" r="330"/></clipPath>
   </defs>
 
-  <rect width="1600" height="420" fill="url(#bgGrad)"/>
+  <rect width="1600" height="420" fill="url(#spaceGrad)"/>
   <rect width="1600" height="420" fill="url(#vig)"/>
   <rect x="24" width="1552" height="2" fill="url(#bezelGrad)"/>
-  <rect x="8" y="8" width="1584" height="404" rx="28" stroke="#23406B" stroke-opacity="0.28"/>
-  <rect x="16" y="16" width="1568" height="388" rx="24" stroke="#1C3A5E" stroke-opacity="0.14"/>
 
-  <g stroke="#5FA8E8" stroke-opacity="0.035" fill="none">
-    <path d="M24 70 H1576 M24 134 H1576 M24 198 H1576 M24 262 H1576 M24 326 H1576 M24 390 H1576"/>
-    <path d="M160 16 V404 M360 16 V404 M560 16 V404 M760 16 V404 M960 16 V404 M1160 16 V404 M1360 16 V404 M1560 16 V404"/>
+  <circle cx="1260" cy="150" r="430" fill="url(#nebula)"/>
+  <circle cx="880" cy="330" r="330" fill="url(#nebulaCyan)"/>
+  <path d="M-60 300C400 180 1100 130 1660 -40" stroke="#C7B4FF" stroke-width="80" stroke-opacity="0.06" fill="none" filter="url(#bigBlur)"/>
+
+  <g fill="#E7DFFF">
+    <circle cx="120" cy="60" r="1.4"/><circle cx="240" cy="140" r="2"/>
+    <circle cx="380" cy="60" r="1.2"/><circle cx="520" cy="180" r="1.6"/>
+    <circle cx="60" cy="230" r="1.2"/><circle cx="90" cy="360" r="1.8"/>
+    <circle cx="210" cy="330" r="1.2"/><circle cx="330" cy="400" r="1.6"/>
+    <circle cx="460" cy="300" r="1.4"/><circle cx="620" cy="60" r="1.6"/>
+    <circle cx="680" cy="170" r="1.1"/><circle cx="590" cy="120" r="1.3"/>
+    <circle cx="250" cy="250" r="1.1"/><circle cx="40" cy="130" r="1.1"/>
+    <circle cx="1420" cy="80" r="1.5"/><circle cx="1540" cy="150" r="1.2"/>
+    <circle cx="1500" cy="340" r="1.7"/><circle cx="1370" cy="400" r="1.2"/>
+    <circle cx="1450" cy="230" r="1.1"/><circle cx="1310" cy="40" r="1.4"/>
+    <circle cx="1560" cy="380" r="1.1"/>
+  </g>
+  <g stroke="#9BC8FF" stroke-opacity="0.13" stroke-width="1" fill="none">
+    <path d="M60 230L120 60L240 140Z"/>
+    <path d="M330 400L460 300L520 180L590 120"/>
   </g>
 
-  <g fill="#CFE8FF">
-    <circle cx="60" cy="96" r="2" opacity="0.8"/><circle cx="160" cy="40" r="1.4" opacity="0.6"/>
-    <circle cx="300" cy="64" r="1.6" opacity="0.7"/><circle cx="420" cy="140" r="2" opacity="0.8"/>
-    <circle cx="560" cy="40" r="1.4" opacity="0.55"/><circle cx="700" cy="150" r="1.7" opacity="0.65"/>
-    <circle cx="760" cy="52" r="1.5" opacity="0.6"/><circle cx="880" cy="110" r="1.8" opacity="0.7"/>
-    <circle cx="960" cy="40" r="1.4" opacity="0.55"/><circle cx="150" cy="300" r="1.6" opacity="0.65"/>
-    <circle cx="260" cy="360" r="1.4" opacity="0.55"/><circle cx="420" cy="320" r="1.8" opacity="0.7"/>
-    <circle cx="560" cy="240" r="1.5" opacity="0.6"/><circle cx="700" cy="360" r="1.6" opacity="0.65"/>
-    <circle cx="880" cy="380" r="1.5" opacity="0.6"/><circle cx="980" cy="300" r="1.4" opacity="0.55"/>
-    <circle cx="1100" cy="360" r="1.6" opacity="0.65"/><circle cx="1500" cy="40" r="1.6" opacity="0.7"/>
-    <circle cx="1540" cy="180" r="1.5" opacity="0.6"/><circle cx="1500" cy="280" r="1.7" opacity="0.7"/>
-    <circle cx="1480" cy="380" r="1.4" opacity="0.55"/><circle cx="1380" cy="40" r="1.5" opacity="0.6"/>
-    <circle cx="1440" cy="120" r="1.3" opacity="0.5"/>
-  </g>
+  <circle cx="1010" cy="215" r="341" stroke="#57E6FF" stroke-opacity="0.35" stroke-width="3" fill="none" filter="url(#bigBlur)"/>
+  <circle cx="1010" cy="215" r="330" fill="url(#ocean)" stroke="#55E4FF" stroke-opacity="0.5" stroke-width="1.5"/>
 
-  <g opacity="0.14" stroke="url(#titleGrad)" stroke-width="2" fill="none">
-    <path d="M0 96C180 66 320 150 508 108C680 70 790 148 970 104C1140 62 1300 98 1600 56"/>
-    <path d="M0 352C250 316 380 402 600 352C820 302 940 372 1130 330C1320 288 1450 344 1600 306"/>
-  </g>
-
-  <circle cx="1165" cy="195" r="150" fill="url(#halo)"/>
-
-  <circle cx="1165" cy="195" r="150" stroke="#3D6BAB" stroke-opacity="0.18" stroke-width="1"/>
-  <g>
-    <circle cx="1165" cy="195" r="172" stroke="url(#titleGrad)" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="2 9 6 9">
-      <animateTransform attributeName="transform" type="rotate" from="0 1165 195" to="360 1165 195" dur="24s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-  <circle cx="1165" cy="195" r="3" fill="#B9FFF0" filter="url(#glow)">
-    <animateMotion dur="18s" repeatCount="indefinite" path="M1165 23 a172 172 0 1 1 -0.1 0 z"/>
-  </circle>
-
-  <g filter="url(#soft)">
-    <circle cx="1165" cy="195" r="128" fill="url(#sphereGrad)"/>
-    <g clip-path="url(#globeClip)" stroke="#6FD8F2" stroke-opacity="0.55" stroke-width="1.2" fill="none">
-      <ellipse cx="1165" cy="195" rx="28" ry="126"/>
-      <ellipse cx="1165" cy="195" rx="62" ry="128"/>
-      <ellipse cx="1165" cy="195" rx="92" ry="128"/>
-      <ellipse cx="1165" cy="195" rx="128" ry="26"/>
-      <ellipse cx="1165" cy="195" rx="128" ry="52"/>
-      <ellipse cx="1165" cy="195" rx="128" ry="80"/>
-      <ellipse cx="1165" cy="195" rx="128" ry="106"/>
-      <path d="M1037 195 H1293"/>
-      <path d="M1165 67 V323"/>
-    </g>
-    <g clip-path="url(#globeClip)">
-      <g fill="#7EF7D9">
-        <circle cx="1107" cy="153" r="3"/><circle cx="1123" cy="147" r="3"/>
-        <circle cx="1139" cy="149" r="3"/><circle cx="1151" cy="157" r="3"/>
-        <circle cx="1147" cy="171" r="3"/><circle cx="1131" cy="177" r="3"/>
-        <circle cx="1115" cy="173" r="3"/><circle cx="1101" cy="165" r="3"/>
-        <circle cx="1135" cy="137" r="2.4"/><circle cx="1151" cy="139" r="2.4"/>
-        <circle cx="1159" cy="203" r="3"/><circle cx="1171" cy="199" r="3"/>
-        <circle cx="1183" cy="203" r="3"/><circle cx="1191" cy="217" r="3"/>
-        <circle cx="1185" cy="235" r="3"/><circle cx="1173" cy="245" r="3"/>
-        <circle cx="1161" cy="251" r="3"/><circle cx="1175" cy="261" r="2.4"/>
-        <circle cx="1165" cy="269" r="2.4"/>
-        <circle cx="1195" cy="145" r="2.6"/><circle cx="1211" cy="139" r="2.6"/>
-        <circle cx="1221" cy="147" r="3"/><circle cx="1227" cy="163" r="3"/>
-        <circle cx="1209" cy="159" r="3"/><circle cx="1201" cy="171" r="2.8"/>
-        <circle cx="1223" cy="183" r="3"/><circle cx="1237" cy="175" r="3"/>
-        <circle cx="1245" cy="190" r="3"/><circle cx="1229" cy="199" r="3"/>
-        <circle cx="1241" cy="213" r="3"/><circle cx="1253" cy="197" r="2.6"/>
-        <circle cx="1257" cy="185" r="2.4"/>
-        <circle cx="1235" cy="175" r="2"/><circle cx="1179" cy="191" r="2"/>
-        <circle cx="1231" cy="159" r="2"/>
-      </g>
-      <g fill="#A78BFA">
-        <circle cx="1125" cy="147" r="2.2"/><circle cx="1171" cy="243" r="2.2"/>
-        <circle cx="1229" cy="171" r="2.2"/><circle cx="1241" cy="207" r="2.2"/>
-        <circle cx="1157" cy="149" r="2"/><circle cx="1201" cy="243" r="2"/>
-      </g>
+  <g clip-path="url(#planetClip)">
+    <ellipse cx="1010" cy="215" rx="330" ry="60" stroke="#3E6DA0" stroke-opacity="0.25" stroke-width="1"/>
+    <ellipse cx="1010" cy="215" rx="330" ry="130" stroke="#3E6DA0" stroke-opacity="0.25" stroke-width="1"/>
+    <ellipse cx="1010" cy="215" rx="330" ry="210" stroke="#3E6DA0" stroke-opacity="0.25" stroke-width="1"/>
+    <ellipse cx="1010" cy="215" rx="100" ry="330" stroke="#3E6DA0" stroke-opacity="0.22" stroke-width="1"/>
+    <ellipse cx="1010" cy="215" rx="190" ry="330" stroke="#3E6DA0" stroke-opacity="0.22" stroke-width="1"/>
+    <ellipse cx="1010" cy="215" rx="270" ry="330" stroke="#3E6DA0" stroke-opacity="0.22" stroke-width="1"/>
+    <path d="M680 215H1340" stroke="#3E6DA0" stroke-opacity="0.28" stroke-width="1"/>
+    <g fill="#4EC0FF">
+      <circle cx="1020" cy="250" r="2" opacity="0.3"/><circle cx="1200" cy="210" r="2" opacity="0.3"/>
+      <circle cx="1240" cy="290" r="1.8" opacity="0.3"/><circle cx="1160" cy="260" r="1.8" opacity="0.3"/>
+      <circle cx="1100" cy="180" r="1.8" opacity="0.3"/><circle cx="1300" cy="240" r="1.6" opacity="0.3"/>
+      <circle cx="1040" cy="300" r="1.6" opacity="0.3"/><circle cx="1320" cy="330" r="1.6" opacity="0.3"/>
+      <circle cx="1180" cy="290" r="1.6" opacity="0.3"/><circle cx="1270" cy="120" r="1.6" opacity="0.3"/>
     </g>
   </g>
+  <circle cx="1010" cy="215" r="330" fill="url(#leftLight)"/>
+  <circle cx="1010" cy="215" r="330" fill="url(#termRight)"/>
 
   <g>
-    <circle cx="1165" cy="195" r="122" stroke="#67ECFF" stroke-width="1.5" fill="none">
-      <animate attributeName="r" values="122;164" dur="3.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.55;0" dur="3.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1165" cy="195" r="122" stroke="#67ECFF" stroke-width="1.5" fill="none">
-      <animate attributeName="r" values="122;164" dur="3.4s" begin="1.7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.55;0" dur="3.4s" begin="1.7s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <g>
-    <path d="M1054 131A128 128 0 0 1 1276 131L1165 195Z" fill="#4FD0FF" fill-opacity="0.12">
-      <animateTransform attributeName="transform" type="rotate" from="0 1165 195" to="360 1165 195" dur="16s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1054 131A128 128 0 0 1 1276 131" stroke="#7EF7D9" stroke-opacity="0.5" stroke-width="1.5" fill="none" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="rotate" from="0 1165 195" to="360 1165 195" dur="16s" repeatCount="indefinite"/>
-    </path>
-  </g>
-
-  <g>
-    <circle cx="1251" cy="221" r="5" fill="#FFC861" opacity="0.9"/>
-    <circle cx="1251" cy="221" r="10" stroke="#FFC861" stroke-opacity="0.35" fill="none" stroke-width="1.5">
-      <animate attributeName="r" values="6;14" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.5;0" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1135" cy="253" r="4" fill="#FFC861" opacity="0.75"/>
-    <circle cx="1135" cy="253" r="8" stroke="#FFC861" stroke-opacity="0.3" fill="none" stroke-width="1.5">
-      <animate attributeName="r" values="5;12" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.5;0" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <g>
-    <path d="M1302 118Q1346 96 1292 76" stroke="#59C8FF" stroke-opacity="0.85" stroke-width="1.5" fill="none" stroke-dasharray="4 7" stroke-linecap="round">
-      <animate attributeName="stroke-dashoffset" values="0;-22" dur="1s" repeatCount="indefinite"/>
-    </path>
-    <g transform="translate(1287 73) rotate(-115)">
-      <rect x="-4" y="-3" width="8" height="10" rx="3" fill="#0E1E3A" stroke="#59C8FF" stroke-width="1.5"/>
-      <rect x="-12" y="-1" width="7" height="6" rx="1" fill="#15325A"/>
-      <rect x="5" y="-1" width="7" height="6" rx="1" fill="#15325A"/>
-      <circle cx="0" cy="-4" r="2" fill="#7EF7D9"/>
-      <circle cx="0" cy="-4" r="5" fill="#7EF7D9" opacity="0.35" filter="url(#glow)"/>
+    <path d="M1174 152Q1200 138 1215 128" stroke="url(#arcGrad)" stroke-opacity="0.85" stroke-width="1.6" fill="none"/>
+    <path d="M1215 128Q1221 195 1218 254" stroke="url(#arcGrad)" stroke-opacity="0.85" stroke-width="1.6" fill="none"/>
+    <path d="M1138 214Q1196 244 1218 254" stroke="url(#arcGrad)" stroke-opacity="0.85" stroke-width="1.6" fill="none"/>
+    <path d="M1138 214Q1132 262 1148 300" stroke="url(#arcGrad)" stroke-opacity="0.85" stroke-width="1.6" fill="none"/>
+    <path d="M1218 254Q1288 306 1258 318" stroke="url(#arcGrad)" stroke-opacity="0.85" stroke-width="1.6" fill="none"/>
+    <path d="M1174 152Q1312 236 1258 318" stroke="url(#magGrad)" stroke-opacity="0.9" stroke-width="1.8" fill="none"/>
+    <g stroke="url(#arcGrad)" stroke-opacity="0.35" stroke-width="4" fill="none" filter="url(#softGlow)">
+      <path d="M1174 152Q1200 138 1215 128"/>
+      <path d="M1215 128Q1221 195 1218 254"/>
+      <path d="M1138 214Q1196 244 1218 254"/>
+      <path d="M1138 214Q1132 262 1148 300"/>
+      <path d="M1218 254Q1288 306 1258 318"/>
     </g>
-  </g>
-
-  <circle cx="1165" cy="195" r="128" stroke="url(#rimGrad)" stroke-width="2.5" stroke-opacity="0.95" fill="none"/>
-  <circle cx="1165" cy="195" r="128" stroke="#9BFFE6" stroke-width="2.5" stroke-opacity="0.85" fill="none" stroke-linecap="round" stroke-dasharray="96 600" transform="rotate(-42 1165 195)"/>
-  <circle cx="1165" cy="195" r="5" fill="#EFFFFF" filter="url(#glow)"/>
-  <circle cx="1165" cy="195" r="14" fill="url(#seedCore)" opacity="0.55" filter="url(#glow)"/>
-
-  <g stroke="#3E6EA8" stroke-opacity="0.65" stroke-width="1.5" fill="none" stroke-linecap="round">
-    <path d="M1000 66V40H1026"/>
-    <path d="M1334 66V42H1308"/>
-    <path d="M1000 324V348H1026"/>
-    <path d="M1334 324V348H1308"/>
-  </g>
-
-  <g filter="url(#cardShadow)">
-    <g>
-      <rect x="1326" y="80" width="246" height="92" rx="16" fill="#0B1429" fill-opacity="0.92" stroke="#3B639B" stroke-opacity="0.4"/>
-      <circle cx="1350" cy="104" r="4" fill="#FF5D5D">
-        <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
-      </circle>
-      <text x="1364" y="109" fill="#FF9B9B" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="800" letter-spacing="3">BREAKING</text>
-      <path d="M1344 116H1558" stroke="#FFFFFF" stroke-opacity="0.07"/>
-      <text x="1344" y="140" fill="#EDF4FF" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">Global news, re-imagined on</text>
-      <text x="1344" y="160" fill="#EDF4FF" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700">a live, security-grade 3D globe.</text>
-      <text x="1344" y="166" fill="#5B759F" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="8.5" font-weight="700" letter-spacing="2">POWERED BY AI HEURISTICS</text>
-    </g>
-    <g>
-      <rect x="1024" y="302" width="268" height="82" rx="16" fill="#0B1429" fill-opacity="0.92" stroke="#37B99A" stroke-opacity="0.4"/>
-      <circle cx="1044" cy="322" r="3.5" fill="#7EF7D9">
-        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="1056" y="326" fill="#7FF0D8" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="10" font-weight="800" letter-spacing="2">LIVE SIGNAL</text>
-      <path d="M1044 352L1060 344L1076 348L1092 334L1108 340L1124 322L1140 328L1156 310L1172 316L1188 298L1188 356L1044 356Z" fill="url(#sparkFade)"/>
-      <path d="M1044 352L1060 344L1076 348L1092 334L1108 340L1124 322L1140 328L1156 310L1172 316L1188 298" stroke="#7EF7D9" stroke-width="2" fill="none"/>
-      <circle cx="1188" cy="298" r="5" fill="#D9C6FF" opacity="0.35" filter="url(#glow)"/>
-      <circle cx="1188" cy="298" r="3" fill="#E3D4FF"/>
-      <text x="1210" y="330" fill="#5B759F" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="8.5" font-weight="800" letter-spacing="2">TREND</text>
-      <text x="1208" y="352" fill="#8FF7E3" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="800">+84%</text>
-      <text x="1206" y="368" fill="#5B759F" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="600">24h global signal</text>
-    </g>
+    <path d="M1174 152Q1312 236 1258 318" stroke="url(#magGrad)" stroke-opacity="0.45" stroke-width="5" fill="none" filter="url(#softGlow)" transform="translate(0 0)"/>
   </g>
 
   <g>
-    <rect x="1334" y="16" width="190" height="30" rx="15" fill="#081424" fill-opacity="0.9" stroke="#2A4C7C" stroke-opacity="0.5"/>
-    <circle cx="1354" cy="31" r="4" fill="#7EF7D9">
-      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    <circle r="3" fill="#FFFFFF" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite" path="M1174 152Q1200 138 1215 128"/></circle>
+    <circle r="3" fill="#FFFFFF" filter="url(#glow)"><animateMotion dur="6s" begin="2s" repeatCount="indefinite" path="M1215 128Q1221 195 1218 254"/></circle>
+    <circle r="3" fill="#9BFFF0" filter="url(#glow)"><animateMotion dur="5.5s" begin="0.5s" repeatCount="indefinite" path="M1138 214Q1132 262 1148 300"/></circle>
+    <circle r="3" fill="#FFFFFF" filter="url(#glow)"><animateMotion dur="7s" begin="1s" repeatCount="indefinite" path="M1174 152Q1312 236 1258 318"/></circle>
+    <circle r="3" fill="#FFC2F2" filter="url(#glow)"><animateMotion dur="4.5s" begin="0.8s" repeatCount="indefinite" path="M1138 214Q1196 244 1218 254"/></circle>
+  </g>
+
+  <g>
+    <circle cx="1215" cy="128" r="5" fill="#EAFDF7">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <text x="1370" y="36" fill="#C7F3EA" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="800" letter-spacing="2">SYSTEMS LIVE</text>
+    <circle cx="1215" cy="128" r="10" stroke="#BAF7E8" stroke-opacity="0.5" stroke-width="1.5">
+      <animate attributeName="r" values="6;20" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.5;0.1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1258" cy="318" r="4.5" fill="#FFE8B0">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1258" cy="318" r="9" stroke="#FFC861" stroke-opacity="0.5" stroke-width="1.5">
+      <animate attributeName="r" values="5;18" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.5;0.1" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1174" cy="152" r="3.5" fill="#EAFDF7"/>
+    <circle cx="1138" cy="214" r="4" fill="#EAFDF7"/>
+    <circle cx="1218" cy="254" r="3.5" fill="#EAFDF7"/>
+    <circle cx="1148" cy="300" r="3.5" fill="#EAFDF7"/>
+    <circle cx="1290" cy="120" r="3" fill="#EAFDF7"/>
+  </g>
+
+  <text x="1215" y="150" fill="#BFEAF2" fill-opacity="0.85" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="7.5" font-weight="700" letter-spacing="2" text-anchor="middle">TOKYO</text>
+  <text x="1218" y="274" fill="#BFEAF2" fill-opacity="0.85" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="7.5" font-weight="700" letter-spacing="2" text-anchor="middle">SINGAPORE</text>
+  <text x="1258" y="338" fill="#E8C9A0" fill-opacity="0.9" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="7.5" font-weight="700" letter-spacing="2" text-anchor="middle">SYDNEY</text>
+
+  <g>
+    <circle cx="92" cy="80" r="3" fill="#7DF9E4"/>
+    <circle cx="92" cy="80" r="7" stroke="#7DF9E4" stroke-opacity="0.5">
+      <animate attributeName="r" values="4;11" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.5;0.1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="110" y="85" fill="#A9C9FF" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="4">PENTHIUSX · REAL-TIME WORLD INTELLIGENCE</text>
+  </g>
+
+  <text x="800" y="176" fill="url(#titleGrad)" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle">GLOBE</text>
+  <text x="800" y="262" fill="url(#titleGrad)" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle">PULSE</text>
+  <text x="800" y="306" fill="#C7D6F5" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="17.5" font-weight="500" text-anchor="middle">Live global news, AI heuristics &amp; geospatial events,</text>
+  <text x="800" y="330" fill="#C7D6F5" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="17.5" font-weight="500" text-anchor="middle">pulsing across a real-time 3D world map.</text>
+
+  <g>
+    <rect x="60" y="354" width="206" height="36" rx="18" fill="#0E1233" stroke="#3B2E86" stroke-opacity="0.7"/>
+    <circle cx="84" cy="372" r="3" fill="#7DF9E4">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="100" y="377" fill="#D6E6F7" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">LIVE WORLD FEED</text>
+  </g>
+  <g>
+    <rect x="278" y="354" width="196" height="36" rx="18" fill="#0E1233" stroke="#3B2E86" stroke-opacity="0.7"/>
+    <path d="M334 366L342 362L350 366L342 370Z" fill="#C792FF"/>
+    <text x="360" y="377" fill="#D6E6F7" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">AI HEURISTICS</text>
+  </g>
+  <g>
+    <rect x="486" y="354" width="196" height="36" rx="18" fill="url(#ctaGrad)"/>
+    <rect x="501" y="360" width="166" height="2" rx="1" fill="#FFFFFF" fill-opacity="0.4"/>
+    <text x="584" y="377" fill="#041018" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="800" letter-spacing="0.5" text-anchor="middle">OPEN MAP →</text>
+  </g>
+  <g>
+    <rect x="1280" y="354" width="280" height="36" rx="18" fill="#0B0724" fill-opacity="0.85" stroke="#3A2A6E" stroke-opacity="0.6"/>
+    <text x="1420" y="377" fill="#A7D8F2" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="700" letter-spacing="1" text-anchor="middle">globe-pulse.pages.dev</text>
   </g>
 
   <g>
-    <rect x="136" y="54" width="56" height="56" rx="16" fill="#0E1B38" stroke="#2E5A9E" stroke-width="1.5"/>
-    <path d="M164 94V102M164 74V62M154 82H146M174 82H182" stroke="#BFE6FF" stroke-opacity="0.8" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M164 74L172 82L164 90L156 82Z" fill="#7EF7D9"/>
-    <circle cx="164" cy="82" r="2" fill="#E9FFFB"/>
-  </g>
-  <text x="212" y="88" fill="#B9C9E9" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" letter-spacing="4">PENTHIUSX</text>
-  <text x="212" y="106" fill="#5B759F" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="9.5" font-weight="700" letter-spacing="3">GLOBAL SIGNAL WORKSHOP</text>
-
-  <text x="136" y="190" fill="url(#titleGrad)" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="80" font-weight="800" letter-spacing="-3">Globe Pulse</text>
-  <text x="138" y="248" fill="#AFC3E2" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="21" font-weight="500">Watch the world in real time — live global news,</text>
-  <text x="138" y="278" fill="#AFC3E2" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="21" font-weight="500">AI heuristics &amp; geospatial events on a 3D world map.</text>
-
-  <g>
-    <rect x="136" y="302" width="244" height="38" rx="19" fill="#0B1730" stroke="#2F5890" stroke-opacity="0.6"/>
-    <circle cx="166" cy="321" r="9" stroke="#7EF7D9" stroke-width="1.5" fill="#0A1B33"/>
-    <ellipse cx="166" cy="321" rx="4" ry="9" stroke="#7EF7D9" stroke-width="1" fill="none"/>
-    <path d="M158 321H174" stroke="#7EF7D9" stroke-width="1"/>
-    <circle cx="166" cy="321" r="1.5" fill="#E9FFFB"/>
-    <text x="186" y="327" fill="#D6E6FF" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">Real-Time World Map</text>
-  </g>
-  <g>
-    <rect x="392" y="302" width="206" height="38" rx="19" fill="#0B1730" stroke="#2F5890" stroke-opacity="0.6"/>
-    <path d="M420 313L428 321L420 329L412 321Z" fill="#A78BFA"/>
-    <path d="M420 330V335M420 315V310M411 321H406M429 321H434" stroke="#A78BFA" stroke-opacity="0.9" stroke-width="1.3" stroke-linecap="round"/>
-    <text x="442" y="327" fill="#D6E6FF" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">AI Heuristics</text>
-  </g>
-  <g>
-    <rect x="610" y="302" width="184" height="38" rx="19" fill="url(#ctaGrad)"/>
-    <rect x="625" y="308" width="154" height="2" rx="1" fill="#FFFFFF" fill-opacity="0.4"/>
-    <text x="702" y="327" fill="#041018" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="800" letter-spacing="0.5" text-anchor="middle">LIVE GLOBE →</text>
-  </g>
-
-  <g>
-    <rect x="28" y="388" width="1544" height="26" rx="13" fill="#060E20" fill-opacity="0.92" stroke="#22406C" stroke-opacity="0.6"/>
-    <circle cx="50" cy="401" r="4" fill="#FF5D5D">
+    <rect x="24" y="392" width="1552" height="28" rx="14" fill="#0A0518" fill-opacity="0.85" stroke="#3A2A6E" stroke-opacity="0.55"/>
+    <circle cx="46" cy="406" r="4" fill="#FF5D5D">
       <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="62" y="406" fill="#FF9B9B" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="800" letter-spacing="2">LIVE</text>
-    <path d="M96 394V408" stroke="#2C4E7C" stroke-opacity="0.7" stroke-width="1"/>
-    <text x="800" y="406" fill="#8FA6CE" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="500" letter-spacing="0.5" text-anchor="middle">3D WORLD MONITOR ACTIVE · AI SENTIMENT +84% · 12 LANGUAGES · CRISIS TRACKING: ON · globe-pulse.pages.dev</text>
+    <text x="58" y="411" fill="#FF9B9B" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="800" letter-spacing="2">LIVE</text>
+    <path d="M90 399V413" stroke="#4A2F9E" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="800" y="411" fill="#9489C9" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="500" letter-spacing="0.5" text-anchor="middle">3D WORLD MONITOR ACTIVE · AI SENTIMENT +84% · 12 LANGUAGES · CRISIS TRACKING: ON · GLOBAL PULSE ONLINE</text>
+  </g>
+
+  <g>
+    <rect x="1334" y="16" width="190" height="30" rx="15" fill="#120A2C" fill-opacity="0.9" stroke="#4A2F9E" stroke-opacity="0.55"/>
+    <circle cx="1354" cy="31" r="4" fill="#7DF9E4">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1370" y="36" fill="#C9F7EE" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="800" letter-spacing="2">SYSTEMS LIVE</text>
   </g>
 </svg>
