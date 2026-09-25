@@ -1,0 +1,61 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PenthiusX — Digital creator and builder</title>
+  <desc id="desc">A dark, premium profile banner featuring a glowing globe pulse and the website globe-pulse.pages.dev.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B17"/>
+      <stop offset="0.52" stop-color="#111936"/>
+      <stop offset="1" stop-color="#071E2D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="320" y1="70" x2="1270" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="0.5" stop-color="#31D7FF"/>
+      <stop offset="1" stop-color="#7DFFCB"/>
+    </linearGradient>
+    <linearGradient id="text" x1="190" y1="180" x2="790" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#A9B9E8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1260 202) rotate(90) scale(190)">
+      <stop stop-color="#31D7FF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#31D7FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/></filter>
+    <clipPath id="globeClip"><circle cx="1260" cy="202" r="112"/></clipPath>
+  </defs>
+  <rect width="1600" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1260" cy="202" r="190" fill="url(#glow)"/>
+  <path d="M0 344C267 279 388 386 666 326C922 271 1088 274 1600 337" stroke="#31D7FF" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M0 362C260 304 418 411 690 348C1002 276 1254 302 1600 350" stroke="#7C5CFF" stroke-opacity="0.09" stroke-width="2"/>
+  <g opacity="0.45" fill="#A9B9E8">
+    <circle cx="90" cy="76" r="1.5"/><circle cx="164" cy="314" r="1"/><circle cx="332" cy="54" r="1.2"/><circle cx="518" cy="95" r="1.4"/><circle cx="850" cy="62" r="1"/><circle cx="980" cy="328" r="1.5"/><circle cx="1450" cy="75" r="1.3"/><circle cx="1510" cy="291" r="1"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="154" y="88" width="64" height="64" rx="20" fill="#151F43" stroke="#33467E"/>
+    <path d="M174 119.5L186 107L198 119.5L186 132L174 119.5Z" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M186 107V132M174 119.5H198" stroke="#31D7FF" stroke-opacity="0.55" stroke-width="2"/>
+  </g>
+  <text x="248" y="133" fill="#8D9BC8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700" letter-spacing="4">PENTHIUSX  /  PORTFOLIO</text>
+  <text x="154" y="232" fill="url(#text)" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="68" font-weight="800" letter-spacing="-2">Build beyond ordinary.</text>
+  <text x="158" y="274" fill="#9AAAD6" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="21" font-weight="500">Crafting thoughtful digital experiences at the edge of imagination.</text>
+  <g transform="translate(158 314)">
+    <rect width="302" height="44" rx="22" fill="#18254A" stroke="#35528A"/>
+    <circle cx="25" cy="22" r="6" fill="#7DFFCB"/>
+    <text x="44" y="28" fill="#D8E5FF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="650">globe-pulse.pages.dev</text>
+  </g>
+  <g>
+    <circle cx="1260" cy="202" r="128" stroke="#31D7FF" stroke-opacity="0.12" stroke-width="2"/>
+    <circle cx="1260" cy="202" r="145" stroke="#7C5CFF" stroke-opacity="0.12" stroke-width="2" stroke-dasharray="3 12"/>
+    <circle cx="1260" cy="202" r="112" fill="#0C1831" stroke="url(#accent)" stroke-width="3"/>
+    <g clip-path="url(#globeClip)" stroke="#70E8FF" stroke-opacity="0.43" fill="none">
+      <ellipse cx="1260" cy="202" rx="50" ry="112" stroke-width="1.5"/><ellipse cx="1260" cy="202" rx="89" ry="112" stroke-width="1.5"/>
+      <ellipse cx="1260" cy="202" rx="112" ry="35" stroke-width="1.5"/><ellipse cx="1260" cy="202" rx="112" ry="72" stroke-width="1.5"/>
+      <path d="M1148 202H1372M1152 158H1368M1152 246H1368" stroke-width="1.5"/>
+      <path d="M1190 122C1222 151 1228 179 1228 202C1228 230 1220 260 1190 282M1330 122C1298 151 1292 179 1292 202C1292 230 1300 260 1330 282" stroke-width="1.5"/>
+    </g>
+    <circle cx="1260" cy="202" r="8" fill="#7DFFCB" filter="url(#blur)"/><circle cx="1260" cy="202" r="4" fill="#7DFFCB"/>
+    <path d="M1260 202L1335 154" stroke="#7DFFCB" stroke-width="2" stroke-linecap="round"/><circle cx="1335" cy="154" r="4" fill="#7DFFCB"/>
+  </g>
+  <text x="1435" y="386" fill="#6574A7" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="3">CREATE • CONNECT • EXPLORE</text>
+</svg>
