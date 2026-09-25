@@ -60,11 +60,6 @@
       <stop offset="0.78" stop-color="#03030C" stop-opacity="0"/>
       <stop offset="1" stop-color="#02020A" stop-opacity="0.6"/>
     </radialGradient>
-    <linearGradient id="ctaGrad" x1="486" y1="354" x2="682" y2="390" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#4FF2C8"/>
-      <stop offset="0.55" stop-color="#3E9CFF"/>
-      <stop offset="1" stop-color="#8A6CFF"/>
-    </linearGradient>
     <filter id="glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="6"/></filter>
     <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4"/></filter>
     <filter id="bigBlur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="12"/></filter>
@@ -183,7 +178,8 @@
   </g>
 
   <text x="800" y="176" fill="url(#titleGrad)" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle">GLOBE</text>
-  <text x="800" y="262" fill="url(#titleGrad)" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle">PULSE</text>
+  <text x="800" y="262" fill="#39FF14" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle" filter="url(#glow)">PULSE</text>
+  <text x="800" y="262" fill="#3DFF63" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle">PULSE</text>
   <text x="800" y="306" fill="#C7D6F5" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="17.5" font-weight="500" text-anchor="middle">Live global news, AI heuristics &amp; geospatial events,</text>
   <text x="800" y="330" fill="#C7D6F5" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="17.5" font-weight="500" text-anchor="middle">pulsing across a real-time 3D world map.</text>
 
@@ -200,13 +196,11 @@
     <text x="360" y="377" fill="#D6E6F7" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">AI HEURISTICS</text>
   </g>
   <g>
-    <rect x="486" y="354" width="196" height="36" rx="18" fill="url(#ctaGrad)"/>
-    <rect x="501" y="360" width="166" height="2" rx="1" fill="#FFFFFF" fill-opacity="0.4"/>
-    <text x="584" y="377" fill="#041018" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="800" letter-spacing="0.5" text-anchor="middle">OPEN MAP →</text>
-  </g>
-  <g>
-    <rect x="1280" y="354" width="280" height="36" rx="18" fill="#0B0724" fill-opacity="0.85" stroke="#3A2A6E" stroke-opacity="0.6"/>
-    <text x="1420" y="377" fill="#A7D8F2" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="700" letter-spacing="1" text-anchor="middle">globe-pulse.pages.dev</text>
+    <rect x="486" y="354" width="200" height="36" rx="18" fill="#0E1233" stroke="#3B2E86" stroke-opacity="0.7"/>
+    <circle cx="512" cy="372" r="8" stroke="#7DF9E4" stroke-width="1.5" fill="#0E1233"/>
+    <ellipse cx="512" cy="372" rx="3.5" ry="8" stroke="#7DF9E4" stroke-width="1" fill="none"/>
+    <path d="M505 372H519" stroke="#7DF9E4" stroke-width="1"/>
+    <text x="532" y="377" fill="#D6E6F7" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">GEOSPATIAL EVENTS</text>
   </g>
 
   <g>
