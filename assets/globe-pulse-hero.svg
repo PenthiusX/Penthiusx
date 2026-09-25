@@ -1,5 +1,5 @@
 <svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Globe Pulse — Live World Pulse, Mapped in Real Time</title>
+  <title id="title">Globe Pulse â€” Live World Pulse, Mapped in Real Time</title>
   <desc id="desc">Award-winning hero banner for Globe Pulse by PenthiusX: an orbital view of a glowing Earth with live news arcs, AI heuristics and geospatial event pulses on a real-time 3D world map.</desc>
 
   <defs>
@@ -163,9 +163,9 @@
     <circle cx="1290" cy="120" r="3" fill="#EAFDF7"/>
   </g>
 
-  <text x="1215" y="150" fill="#BFEAF2" fill-opacity="0.85" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="7.5" font-weight="700" letter-spacing="2" text-anchor="middle">TOKYO</text>
-  <text x="1218" y="274" fill="#BFEAF2" fill-opacity="0.85" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="7.5" font-weight="700" letter-spacing="2" text-anchor="middle">SINGAPORE</text>
-  <text x="1258" y="338" fill="#E8C9A0" fill-opacity="0.9" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="7.5" font-weight="700" letter-spacing="2" text-anchor="middle">SYDNEY</text>
+  <text x="1215" y="150" fill="#BFEAF2" fill-opacity="0.85" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="7.5" font-weight="700" letter-spacing="2" text-anchor="middle">TOKYO</text>
+  <text x="1218" y="274" fill="#BFEAF2" fill-opacity="0.85" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="7.5" font-weight="700" letter-spacing="2" text-anchor="middle">SINGAPORE</text>
+  <text x="1258" y="338" fill="#E8C9A0" fill-opacity="0.9" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="7.5" font-weight="700" letter-spacing="2" text-anchor="middle">SYDNEY</text>
 
   <g>
     <circle cx="92" cy="80" r="3" fill="#7DF9E4"/>
@@ -174,33 +174,33 @@
       <animate attributeName="opacity" values="0.5;0" dur="2.2s" repeatCount="indefinite"/>
       <animate attributeName="stroke-opacity" values="0.5;0.1" dur="2.2s" repeatCount="indefinite"/>
     </circle>
-    <text x="110" y="85" fill="#A9C9FF" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="4">PENTHIUSX · REAL-TIME WORLD INTELLIGENCE</text>
+    <text x="110" y="85" fill="#A9C9FF" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="4">PENTHIUSX Â· REAL-TIME WORLD INTELLIGENCE</text>
   </g>
 
-  <text x="800" y="176" fill="url(#titleGrad)" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle">GLOBE</text>
-  <text x="800" y="262" fill="#39FF14" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle" filter="url(#glow)">PULSE</text>
-  <text x="800" y="262" fill="#3DFF63" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle">PULSE</text>
-  <text x="800" y="306" fill="#C7D6F5" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="17.5" font-weight="500" text-anchor="middle">Live global news, AI heuristics &amp; geospatial events,</text>
-  <text x="800" y="330" fill="#C7D6F5" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="17.5" font-weight="500" text-anchor="middle">pulsing across a real-time 3D world map.</text>
+  <text x="800" y="176" fill="url(#titleGrad)" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle">Globe</text>
+  <text x="800" y="262" fill="#39FF14" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle" filter="url(#glow)">Pulse</text>
+  <text x="800" y="262" fill="#3DFF63" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="100" font-weight="800" letter-spacing="-2" text-anchor="middle">Pulse</text>
+  <text x="800" y="306" fill="#C7D6F5" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="17.5" font-weight="500" text-anchor="middle">Live global news, AI heuristics &amp; geospatial events,</text>
+  <text x="800" y="330" fill="#C7D6F5" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="17.5" font-weight="500" text-anchor="middle">pulsing across a real-time 3D world map.</text>
 
   <g>
     <rect x="60" y="354" width="206" height="36" rx="18" fill="#0E1233" stroke="#3B2E86" stroke-opacity="0.7"/>
     <circle cx="84" cy="372" r="3" fill="#7DF9E4">
       <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="100" y="377" fill="#D6E6F7" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">LIVE WORLD FEED</text>
+    <text x="100" y="377" fill="#D6E6F7" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">LIVE WORLD FEED</text>
   </g>
   <g>
     <rect x="278" y="354" width="196" height="36" rx="18" fill="#0E1233" stroke="#3B2E86" stroke-opacity="0.7"/>
     <path d="M334 366L342 362L350 366L342 370Z" fill="#C792FF"/>
-    <text x="360" y="377" fill="#D6E6F7" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">AI HEURISTICS</text>
+    <text x="360" y="377" fill="#D6E6F7" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">AI HEURISTICS</text>
   </g>
   <g>
     <rect x="486" y="354" width="200" height="36" rx="18" fill="#0E1233" stroke="#3B2E86" stroke-opacity="0.7"/>
     <circle cx="512" cy="372" r="8" stroke="#7DF9E4" stroke-width="1.5" fill="#0E1233"/>
     <ellipse cx="512" cy="372" rx="3.5" ry="8" stroke="#7DF9E4" stroke-width="1" fill="none"/>
     <path d="M505 372H519" stroke="#7DF9E4" stroke-width="1"/>
-    <text x="532" y="377" fill="#D6E6F7" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">GEOSPATIAL EVENTS</text>
+    <text x="532" y="377" fill="#D6E6F7" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.5">GEOSPATIAL EVENTS</text>
   </g>
 
   <g>
@@ -208,9 +208,9 @@
     <circle cx="46" cy="406" r="4" fill="#FF5D5D">
       <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="58" y="411" fill="#FF9B9B" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="800" letter-spacing="2">LIVE</text>
+    <text x="58" y="411" fill="#FF9B9B" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="800" letter-spacing="2">LIVE</text>
     <path d="M90 399V413" stroke="#4A2F9E" stroke-opacity="0.7" stroke-width="1"/>
-    <text x="800" y="411" fill="#9489C9" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="500" letter-spacing="0.5" text-anchor="middle">3D WORLD MONITOR ACTIVE · AI SENTIMENT +84% · 12 LANGUAGES · CRISIS TRACKING: ON · GLOBAL PULSE ONLINE</text>
+    <text x="800" y="411" fill="#9489C9" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="500" letter-spacing="0.5" text-anchor="middle">3D WORLD MONITOR ACTIVE Â· AI SENTIMENT +84% Â· 12 LANGUAGES Â· CRISIS TRACKING: ON Â· GLOBAL PULSE ONLINE</text>
   </g>
 
   <g>
@@ -218,6 +218,6 @@
     <circle cx="1354" cy="31" r="4" fill="#7DF9E4">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="1370" y="36" fill="#C9F7EE" font-family="Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="800" letter-spacing="2">SYSTEMS LIVE</text>
+    <text x="1370" y="36" fill="#C9F7EE" font-family="'Plus Jakarta Sans', Inter, 'Helvetica Neue', Arial, ui-sans-serif, system-ui, sans-serif" font-size="10.5" font-weight="800" letter-spacing="2">SYSTEMS LIVE</text>
   </g>
 </svg>
