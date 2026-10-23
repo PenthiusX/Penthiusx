@@ -3,9 +3,6 @@
 
 
 
-### Welcome to my corner of the internet
-
-
 Ongoing OSINT worm hole: [**Globe Pulse →**](https://globe-pulse.pages.dev)
 
 <!-- <img src="./assets/globe-pulse-hero.svg" alt="Globe Pulse — watch the world in real time" width="100%" /> -->
